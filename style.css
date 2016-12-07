@@ -1,0 +1,48 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+  /*border: 1px solid;*/ }
+
+body {
+  max-width: 1400px;
+  height: 100%;
+  margin: auto;
+  font-size: 10px; }
+  body * {
+    margin: 0px; }
+  body section, body footer {
+    width: 100%;
+    max-width: inherit;
+    height: 70vh; }
+
+nav {
+  width: inherit;
+  max-width: inherit;
+  height: 60px;
+  position: fixed;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.65);
+  font-size: 2em; }
+  nav #logo {
+    width: 150px;
+    height: inherit;
+    float: left; }
+  nav #item {
+    height: inherit;
+    float: right;
+    padding: 15px; }
+    nav #item ul li {
+      height: inherit;
+      float: left;
+      display: inline-block;
+      list-style-type: none;
+      margin-right: 2em; }
+
+#cover-photo {
+  width: inherit;
+  height: inherit;
+  background-image: url("img/cover_photo.jpg");
+  background-size: cover;
+  background-position: center; }
+
+/*# sourceMappingURL=style.css.map */
