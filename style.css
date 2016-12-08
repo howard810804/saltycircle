@@ -10,7 +10,7 @@ body {
   font-size: 10px; }
   body * {
     margin: 0px; }
-  body section, body footer {
+  body section {
     width: 100%;
     max-width: inherit;
     height: 70vh; }
@@ -44,5 +44,23 @@ nav {
   background-image: url("img/cover_photo.jpg");
   background-size: cover;
   background-position: center; }
+
+#menu div {
+  width: 33.33%;
+  height: inherit;
+  float: left;
+  border: 1px solid;
+  font-size: 1.5em; }
+
+#about div {
+  width: 50%;
+  height: inherit;
+  float: left;
+  border: 1px solid; }
+
+footer {
+  max-width: inherit;
+  height: 75px;
+  background: #333333; }
 
 /*# sourceMappingURL=style.css.map */

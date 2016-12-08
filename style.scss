@@ -16,7 +16,7 @@ body {
     * {
         margin: 0px;
     }
-    section, footer {
+    section {
         width: 100%;
         max-width: inherit;
         height: 70vh;
@@ -56,5 +56,24 @@ nav {
     background-position: center;
 }
 #menu {
-    
+    div {
+        width: 33.33%;
+        height: inherit;
+        float: left;
+        border: 1px solid;
+        font-size: 1.5em;
+    }
+}
+#about {
+    div {
+        width: 50%;
+        height: inherit;
+        float: left;
+        border: 1px solid;
+    }
+}
+footer {
+    max-width: inherit;
+    height: 75px;
+    background: #333333;
 }
